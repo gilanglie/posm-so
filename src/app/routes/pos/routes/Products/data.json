@@ -1,0 +1,215 @@
+{
+    "multi_session_id": 1,
+    "message": {
+      "action": "update_order",
+      "data": {
+        "name": "Order 00011-004-0012",
+        "amount_paid": 525000,
+        "amount_total": 675000,
+        "amount_tax": 0,
+        "amount_return": 0,
+        "lines": [
+          [
+            0,
+            0,
+            {
+              "qty": 7,
+              "price_unit": 75000,
+              "discount": 0,
+              "product_id": 3,
+              "id": 73,
+              "uid": "00011-007-0012-73"
+            }
+          ],
+          [
+            0,
+            0,
+            {
+              "qty": 3,
+              "price_unit": 50000,
+              "discount": 0,
+              "product_id": 10,
+              "tax_ids": [
+                [
+                  6,
+                  false,
+                  []
+                ]
+              ],
+              "id": 80,
+              "pack_lot_ids": [],
+              "uid": "00011-007-0012-80",
+              "ms_info": {
+                "created": {
+                  "user": {
+                    "id": 1,
+                    "name": "Administrator"
+                  },
+                  "pos": {
+                    "id": 1,
+                    "name": "Main"
+                  }
+                },
+                "changed": {
+                  "user": {
+                    "id": 1,
+                    "name": "Administrator"
+                  },
+                  "pos": {
+                    "id": 1,
+                    "name": "Main"
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "statement_ids": [
+          [
+            0,
+            0,
+            {
+              "name": "2019-08-14 19:57:41",
+              "statement_id": 10,
+              "account_id": 30,
+              "journal_id": 9,
+              "amount": 525000
+            }
+          ]
+        ],
+        "pos_session_id": 11,
+        "partner_id": false,
+        "user_id": 1,
+        "uid": "00011-004-0012",
+        "sequence_number": 12,
+        "creation_date": "2019-08-12 08:38:26",
+        "fiscal_position_id": false,
+        "ms_info": {
+          "changed": {
+            "user": {
+              "id": 1,
+              "name": "Administrator"
+            },
+            "pos": {
+              "id": 1,
+              "name": "Main"
+            }
+          },
+          "created": {
+            "user": {
+              "id": 1,
+              "name": "Administrator"
+            },
+            "pos": {
+              "id": 1,
+              "name": "Main"
+            }
+          }
+        },
+        "revision_ID": 19,
+        "new_order": false,
+        "order_on_server": true,
+        "run_ID": 3,
+        "pos_id": 1,
+        "nonce": "pj1vwj"
+      },
+      "session_id": 11,
+      "login_number": 7
+    },
+    "dbname": "pos3",
+    "user_ID": 1
+  }
+
+
+  {
+    "id": "00011-008-00122",
+    "to_invoice": false,
+    "data":
+    { 
+      "name": "Order 00011-008-00122",
+      "amount_paid": 325000,
+      "amount_total": 325000,
+      "amount_tax": 0,
+      "amount_return": 0,
+      "lines": [
+        [
+          0,
+          0,
+          {
+            "qty": 1,
+            "price_unit": 25000,
+            "discount": 0,
+            "product_id": 14,
+            "tax_ids": [
+              [
+                6,
+                false,
+                []
+              ]
+            ],
+            "id": 14,
+            "pack_lot_ids": [],
+            "uid": "00011-008-00111-97",
+            "ms_info": {
+              "created": {
+                "user": {
+                  "id": 1,
+                  "name": "Administrator"
+                },
+                "pos": {
+                  "id": 1,
+                  "name": "Main"
+                }
+              }
+            }
+          }
+        ],
+      ],
+      "statement_ids": [
+        [
+          0,
+          0,
+          {
+            "name": "2019-08-14 22:19:32",
+            "statement_id": 10,
+            "account_id": 30,
+            "journal_id": 9,
+            "amount": 325000
+          }
+        ]
+      ],
+      "pos_session_id": 11,
+      "partner_id": false,
+      "user_id": 1,
+      "uid": "00011-008-00122",
+      "sequence_number": 14,
+      "creation_date": "2019-08-14 22:19:32",
+      "fiscal_position_id": false,
+      "ms_info": {
+        "created": {
+          "user": {
+            "id": 1,
+            "name": "Administrator"
+          },
+          "pos": {
+            "id": 1,
+            "name": "Main"
+          }
+        },
+        "changed": {
+          "user": {
+            "id": 1,
+            "name": "Administrator"
+          },
+          "pos": {
+            "id": 1,
+            "name": "Main"
+          }
+        }
+      },
+      "revision_ID": 6,
+      "new_order": false,
+      "order_on_server": true,
+      "run_ID": 3
+    }
+  }
